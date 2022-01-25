@@ -1,0 +1,26 @@
+version: '3.5'
+
+volumes:
+  mongodb_rgcsm:
+services:
+  mongodb:
+    restart: always
+    image: mongo:4
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: rgcsmdbpassword
+    ports:
+      - 27017:27017
+    networks:
+      - br0-docker-feature
+    volumes:
+      - mongodb_rgcsm:/var/lib/mongodb
+    logging:
+      driver: 'json-file'
+      options:
+        max-size: '10k'
+
+networks:
+  br0-docker-feature:
+    external: true
+
