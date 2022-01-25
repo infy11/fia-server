@@ -1,0 +1,981 @@
+[{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506649"
+  },
+  "roll_no": "202001",
+  "name": "AALIA",
+  "father_name": "MOHD ABID HUSAIN",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "FATMA",
+  "dob": "10\\12\\1994",
+  "address": "Moh.- Chimman",
+  "mob_no": "9411049760",
+  "computer_fundamental": "73",
+  "operating_system": "71",
+  "microsoft_office": "79",
+  "Internet": "82",
+  "project": "80",
+  "Total": "385",
+  "Percentage": "77",
+  "Grade": "A"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d850664a"
+  },
+  "roll_no": "202002",
+  "name": "AARTI",
+  "father_name": "MAHENDRA SINGH",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "MAMTA DEVI",
+  "dob": "05\\04\\1996",
+  "address": "Vill Piplijat",
+  "mob_no": "8279420841",
+  "computer_fundamental": "92",
+  "operating_system": "94",
+  "microsoft_office": "98",
+  "Internet": "96",
+  "project": "95",
+  "Total": "475",
+  "Percentage": "95",
+  "Grade": "S"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d850664b"
+  },
+  "roll_no": "202003",
+  "name": "AARZU",
+  "father_name": "NASIR",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": " AFSARI",
+  "dob": "30\\08\\1998",
+  "address": "Moh.- Pheena Colony",
+  "mob_no": "7500396921",
+  "computer_fundamental": "67",
+  "operating_system": "84",
+  "microsoft_office": "78",
+  "Internet": "78",
+  "project": "88",
+  "Total": "395",
+  "Percentage": "79",
+  "Grade": "A"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d850664c"
+  },
+  "roll_no": "202004",
+  "name": "AFSANA PARVEEN",
+  "father_name": "MOHD RIYAZUDDIN",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "KHADIJA KHATOON",
+  "dob": "26\\11\\2001",
+  "address": "Moh.- Mufti saray",
+  "mob_no": "9917995029",
+  "computer_fundamental": "78",
+  "operating_system": "88",
+  "microsoft_office": "92",
+  "Internet": "92",
+  "project": "85",
+  "Total": "435",
+  "Percentage": "87",
+  "Grade": "S"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d850664d"
+  },
+  "roll_no": "202005",
+  "name": "AMIR KHAN",
+  "father_name": "ZAMEEL",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "AYSHA FATHMA",
+  "dob": "12\\10\\1995",
+  "address": "Moh.- Patiyapara",
+  "mob_no": "8057787672",
+  "computer_fundamental": "61",
+  "operating_system": "55",
+  "microsoft_office": "78",
+  "Internet": "58",
+  "project": "83",
+  "Total": "335",
+  "Percentage": "67",
+  "Grade": "B"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d850664e"
+  },
+  "roll_no": "202006",
+  "name": "AMREEN",
+  "father_name": "MOHD RASHID",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "RIHANA PARVEEN",
+  "dob": "02\\07\\2002",
+  "address": "Moh.- Shahchandan",
+  "mob_no": "8445219235",
+  "computer_fundamental": "78",
+  "operating_system": "72",
+  "microsoft_office": "82",
+  "Internet": "83",
+  "project": "85",
+  "Total": "400",
+  "Percentage": "80",
+  "Grade": "A"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d850664f"
+  },
+  "roll_no": "202007",
+  "name": "AYSHA PARVEEN",
+  "father_name": "IRFAN AHMAD",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "MEHRAJ FATMA",
+  "dob": "16\\08\\2000",
+  "address": "Moh.-Patiyapara",
+  "mob_no": "8650876933",
+  "computer_fundamental": "86",
+  "operating_system": "78",
+  "microsoft_office": "87",
+  "Internet": "89",
+  "project": "80",
+  "Total": "420",
+  "Percentage": "84",
+  "Grade": "A"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506650"
+  },
+  "roll_no": "202008",
+  "name": "AYUSHI YADAV",
+  "father_name": "NARESH KUMAR YADAV",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "NEERAJ DEVI",
+  "dob": "10\\01\\2002",
+  "address": "Moh.- Chimman",
+  "mob_no": "7037563859",
+  "computer_fundamental": "66",
+  "operating_system": "63",
+  "microsoft_office": "54",
+  "Internet": "62",
+  "project": "80",
+  "Total": "325",
+  "Percentage": "65",
+  "Grade": "B"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506651"
+  },
+  "roll_no": "202009",
+  "name": "AZRA KHAN",
+  "father_name": "TASLEEM KHAN",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "NASREEN FATMA",
+  "dob": "18\\04\\1999",
+  "address": "Moh.- Dhali bajar",
+  "mob_no": "8791733691",
+  "computer_fundamental": "91",
+  "operating_system": "87",
+  "microsoft_office": "94",
+  "Internet": "93",
+  "project": "95",
+  "Total": "460",
+  "Percentage": "92",
+  "Grade": "S"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506652"
+  },
+  "roll_no": "202010",
+  "name": "DHANWATI",
+  "father_name": "DALIP SINGH",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "SHANTI DEVI",
+  "dob": "16\\06\\2002",
+  "address": "Moh.- Sant Nagar",
+  "mob_no": "7668487460",
+  "computer_fundamental": "75",
+  "operating_system": "72",
+  "microsoft_office": "81",
+  "Internet": "77",
+  "project": "70",
+  "Total": "375",
+  "Percentage": "75",
+  "Grade": "A"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506653"
+  },
+  "roll_no": "202011",
+  "name": "FAEEM AHAMAD",
+  "father_name": "SHAMEEM AHAMAD",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "HUSNA KHATOON",
+  "dob": "18\\05\\2002",
+  "address": "Moh. - Sarayrafi",
+  "mob_no": "9759837147",
+  "computer_fundamental": "71",
+  "operating_system": "75",
+  "microsoft_office": "62",
+  "Internet": "72",
+  "project": "80",
+  "Total": "360",
+  "Percentage": "72",
+  "Grade": "B"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506654"
+  },
+  "roll_no": "202012",
+  "name": "FATMA PARVEEN",
+  "father_name": "MOHD MUNNU",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "FIROZA KHATOON",
+  "dob": "08\\02\\1998",
+  "address": "Moh.- Patiyapara",
+  "mob_no": "7505579065",
+  "computer_fundamental": "62",
+  "operating_system": "68",
+  "microsoft_office": "63",
+  "Internet": "52",
+  "project": "80",
+  "Total": "325",
+  "Percentage": "65",
+  "Grade": "B"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506655"
+  },
+  "roll_no": "202013",
+  "name": "GULAY RANA",
+  "father_name": "QARMUZZAMAM",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "ANEES FATIMA",
+  "dob": "01\\06\\1984",
+  "address": "Moh. - Sarayrafi",
+  "mob_no": "8938960043",
+  "computer_fundamental": "61",
+  "operating_system": "55",
+  "microsoft_office": "74",
+  "Internet": "69",
+  "project": "66",
+  "Total": "325",
+  "Percentage": "65",
+  "Grade": "B"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506656"
+  },
+  "roll_no": "202014",
+  "name": "HEENA PARVEEN",
+  "father_name": "MOHD YAMEEN",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "SHABBO PARVEEN",
+  "dob": "10\\07\\2000",
+  "address": "Moh. - Sarayrafi",
+  "mob_no": "9058819217",
+  "computer_fundamental": "89",
+  "operating_system": "81",
+  "microsoft_office": "93",
+  "Internet": "87",
+  "project": "90",
+  "Total": "440",
+  "Percentage": "88",
+  "Grade": "S"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506657"
+  },
+  "roll_no": "202015",
+  "name": "IFFAT",
+  "father_name": "AABID",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "MEENA",
+  "dob": "17\\07\\1998",
+  "address": "Moh.- Chimman",
+  "mob_no": "6397692215",
+  "computer_fundamental": "81",
+  "operating_system": "73",
+  "microsoft_office": "74",
+  "Internet": "72",
+  "project": "75",
+  "Total": "375",
+  "Percentage": "75",
+  "Grade": "A"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506658"
+  },
+  "roll_no": "202016",
+  "name": "IFRA NAZ",
+  "father_name": "NAIM AHMAD",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "ARIFA",
+  "dob": "04\\08\\1998",
+  "address": "Moh.- Mufti saray",
+  "mob_no": "7037375398",
+  "computer_fundamental": "66",
+  "operating_system": "76",
+  "microsoft_office": "71",
+  "Internet": "57",
+  "project": "80",
+  "Total": "350",
+  "Percentage": "70",
+  "Grade": "B"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506659"
+  },
+  "roll_no": "202017",
+  "name": "JAVED AHAMAD",
+  "father_name": "MOHD VASIK ",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "MUNIJA BEGAM",
+  "dob": "30\\01\\1997",
+  "address": "Moh.- Kayasthan",
+  "mob_no": "9917429914",
+  "computer_fundamental": "57",
+  "operating_system": "61",
+  "microsoft_office": "72",
+  "Internet": "68",
+  "project": "67",
+  "Total": "325",
+  "Percentage": "65",
+  "Grade": "B"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d850665a"
+  },
+  "roll_no": "202018",
+  "name": "KANCHAN",
+  "father_name": "MANGU SINGH",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "URMILA DEVI",
+  "dob": "12\\08\\1998",
+  "address": "Moh.- Qazizadgan",
+  "mob_no": "9068755660",
+  "computer_fundamental": "66",
+  "operating_system": "61",
+  "microsoft_office": "77",
+  "Internet": "72",
+  "project": "89",
+  "Total": "365",
+  "Percentage": "73",
+  "Grade": "B"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d850665b"
+  },
+  "roll_no": "202019",
+  "name": "KHUSHI PARVEEN",
+  "father_name": "NIZAMUDDIN",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "SHADIN",
+  "dob": "03\\08\\2004",
+  "address": "Moh.- Patiyapara",
+  "mob_no": "8171727852",
+  "computer_fundamental": "80",
+  "operating_system": "83",
+  "microsoft_office": "74",
+  "Internet": "81",
+  "project": "82",
+  "Total": "400",
+  "Percentage": "80",
+  "Grade": "A"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d850665c"
+  },
+  "roll_no": "202020",
+  "name": "MAHAK",
+  "father_name": "MOHD AKHLAQ",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "SITARA",
+  "dob": "16\\08\\2006",
+  "address": "Moh.- Chimman",
+  "mob_no": "7037564011",
+  "computer_fundamental": "72",
+  "operating_system": "70",
+  "microsoft_office": "85",
+  "Internet": "81",
+  "project": "67",
+  "Total": "375",
+  "Percentage": "75",
+  "Grade": "A"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d850665d"
+  },
+  "roll_no": "202021",
+  "name": "MANISHA",
+  "father_name": "RAMPAL SINGH",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "RAJO DEVI",
+  "dob": "29\\06\\2001",
+  "address": "Moh.- Qazizadgan",
+  "mob_no": "9012456828",
+  "computer_fundamental": "88",
+  "operating_system": "94",
+  "microsoft_office": "83",
+  "Internet": "90",
+  "project": "95",
+  "Total": "450",
+  "Percentage": "90",
+  "Grade": "S"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d850665e"
+  },
+  "roll_no": "202022",
+  "name": "MOHAMMAD SAAD",
+  "father_name": "MOHAMMAD HARUN",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "",
+  "dob": "20\\03\\2003",
+  "address": "Moh.- Qazizadgan",
+  "mob_no": "9917237172",
+  "computer_fundamental": "60",
+  "operating_system": "55",
+  "microsoft_office": "57",
+  "Internet": "68",
+  "project": "70",
+  "Total": "310",
+  "Percentage": "62",
+  "Grade": "C"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d850665f"
+  },
+  "roll_no": "202023",
+  "name": "MOHD ADNAN",
+  "father_name": "AKHLAAK AHMAD",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "FARHAT JAHAN",
+  "dob": "10\\02\\2003",
+  "address": "Moh.- Kayasthan",
+  "mob_no": "8532932564",
+  "computer_fundamental": "81",
+  "operating_system": "89",
+  "microsoft_office": "80",
+  "Internet": "87",
+  "project": "88",
+  "Total": "425",
+  "Percentage": "85",
+  "Grade": "S"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506660"
+  },
+  "roll_no": "202024",
+  "name": "MOHD ATIF",
+  "father_name": "FURKAN AHAMAD",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "RUKHSANA",
+  "dob": "15\\07\\2005",
+  "address": "Moh. - Sarayrafi",
+  "mob_no": "7505334135",
+  "computer_fundamental": "69",
+  "operating_system": "55",
+  "microsoft_office": "78",
+  "Internet": "68",
+  "project": "70",
+  "Total": "340",
+  "Percentage": "68",
+  "Grade": "B"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506661"
+  },
+  "roll_no": "202025",
+  "name": "MOHD FAIZ",
+  "father_name": "MOHD KALEEM",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "",
+  "dob": "07\\01\\2005",
+  "address": "Moh.- Sarayrafi",
+  "mob_no": "9927920316",
+  "computer_fundamental": "74",
+  "operating_system": "79",
+  "microsoft_office": "82",
+  "Internet": "75",
+  "project": "80",
+  "Total": "390",
+  "Percentage": "78",
+  "Grade": "A"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506662"
+  },
+  "roll_no": "202026",
+  "name": "MOHD FATEH",
+  "father_name": "FARAGHATULLAH",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "ANJUM FARAGHAR",
+  "dob": "01\\01\\1998",
+  "address": "Moh.- Qazizadgan",
+  "mob_no": "7078666755",
+  "computer_fundamental": "62",
+  "operating_system": "52",
+  "microsoft_office": "66",
+  "Internet": "55",
+  "project": "90",
+  "Total": "325",
+  "Percentage": "65",
+  "Grade": "B"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506663"
+  },
+  "roll_no": "202027",
+  "name": "MOHD SAMEER",
+  "father_name": "NAEEM AHMAD",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "SHAHANA PARVEEN",
+  "dob": "04\\04\\2003",
+  "address": "Moh.- Kayasthan",
+  "mob_no": "7617699844",
+  "computer_fundamental": "72",
+  "operating_system": "78",
+  "microsoft_office": "79",
+  "Internet": "76",
+  "project": "70",
+  "Total": "375",
+  "Percentage": "75",
+  "Grade": "A"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506664"
+  },
+  "roll_no": "202028",
+  "name": "MOHD SHAFAAT",
+  "father_name": "SHAKEEL AHAMAD",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "TASLEEMA KHATOON",
+  "dob": "05\\11\\2003",
+  "address": "Moh.- Patiyapara",
+  "mob_no": "8958841279",
+  "computer_fundamental": "52",
+  "operating_system": "56",
+  "microsoft_office": "54",
+  "Internet": "58",
+  "project": "70",
+  "Total": "290",
+  "Percentage": "58",
+  "Grade": "C"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506665"
+  },
+  "roll_no": "202029",
+  "name": "MOHD ZAID",
+  "father_name": "MO. IQBAL",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "SHAMSHEEDA KHATOON",
+  "dob": "03\\07\\2007",
+  "address": "Moh.- Sarayrafi",
+  "mob_no": "8307523504",
+  "computer_fundamental": "56",
+  "operating_system": "52",
+  "microsoft_office": "60",
+  "Internet": "55",
+  "project": "67",
+  "Total": "290",
+  "Percentage": "58",
+  "Grade": "C"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506666"
+  },
+  "roll_no": "202030",
+  "name": "MOHD ZAKI",
+  "father_name": "MOHD HASAN",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "SALMA KHATOON",
+  "dob": "10\\01\\2002",
+  "address": "Moh. - Sarayrafi",
+  "mob_no": "9536636719",
+  "computer_fundamental": "65",
+  "operating_system": "66",
+  "microsoft_office": "76",
+  "Internet": "65",
+  "project": "78",
+  "Total": "350",
+  "Percentage": "70",
+  "Grade": "B"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506667"
+  },
+  "roll_no": "202031",
+  "name": "MOHOMMAD IBRAHEEM",
+  "father_name": "MOHOMMAD AMEER",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "SHAISTA PARVEEN",
+  "dob": "02\\06\\2007",
+  "address": "Moh.- Katkui",
+  "mob_no": "9927157345",
+  "computer_fundamental": "67",
+  "operating_system": "63",
+  "microsoft_office": "73",
+  "Internet": "67",
+  "project": "85",
+  "Total": "355",
+  "Percentage": "71",
+  "Grade": "B"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506668"
+  },
+  "roll_no": "202032",
+  "name": "NEHA",
+  "father_name": "RAMLAL SINGH",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "LOKESH DEVI",
+  "dob": "21\\05\\2000",
+  "address": "Moh.- Qazizadgan",
+  "mob_no": "7995796900",
+  "computer_fundamental": "52",
+  "operating_system": "56",
+  "microsoft_office": "54",
+  "Internet": "58",
+  "project": "70",
+  "Total": "290",
+  "Percentage": "58",
+  "Grade": "C"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506669"
+  },
+  "roll_no": "202033",
+  "name": "NISHANT KUMAR GOLA",
+  "father_name": "CHANDRAPAL SINGH",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "SUDESH DEVI",
+  "dob": "30\\12\\2005",
+  "address": "Moh.- Sarayrafi",
+  "mob_no": "7500142463",
+  "computer_fundamental": "72",
+  "operating_system": "88",
+  "microsoft_office": "94",
+  "Internet": "96",
+  "project": "90",
+  "Total": "440",
+  "Percentage": "88",
+  "Grade": "S"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d850666a"
+  },
+  "roll_no": "202034",
+  "name": "PAYAL",
+  "father_name": "VEDPRAKASH",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "NIRMALA DEVI",
+  "dob": "15\\01\\2005",
+  "address": "Moh.- Patiyapara",
+  "mob_no": "9639404311",
+  "computer_fundamental": "66",
+  "operating_system": "51",
+  "microsoft_office": "56",
+  "Internet": "67",
+  "project": "60",
+  "Total": "300",
+  "Percentage": "60",
+  "Grade": "C"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d850666b"
+  },
+  "roll_no": "202035",
+  "name": "RUBI",
+  "father_name": "ROOP SINGH SAINI",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "SUNTOSH DEVI",
+  "dob": "08\\06\\1994",
+  "address": "Moh.- Gokul Nagar",
+  "mob_no": "6397114012",
+  "computer_fundamental": "75",
+  "operating_system": "71",
+  "microsoft_office": "82",
+  "Internet": "75",
+  "project": "87",
+  "Total": "390",
+  "Percentage": "78",
+  "Grade": "A"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d850666c"
+  },
+  "roll_no": "202036",
+  "name": "SALONI",
+  "father_name": "NARESH KUMAR ",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "BABITA DEVI",
+  "dob": "27\\07\\1998",
+  "address": "Vill - Rajpur Parasu",
+  "mob_no": "9837300717",
+  "computer_fundamental": "82",
+  "operating_system": "94",
+  "microsoft_office": "86",
+  "Internet": "83",
+  "project": "90",
+  "Total": "435",
+  "Percentage": "87",
+  "Grade": "S"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d850666d"
+  },
+  "roll_no": "202037",
+  "name": "SAMIYA",
+  "father_name": "MOHD AFZAL",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "MAHSHR JAHAN",
+  "dob": "20\\01\\2001",
+  "address": "Moh.- Mufti saray",
+  "mob_no": "6396656229",
+  "computer_fundamental": "72",
+  "operating_system": "71",
+  "microsoft_office": "75",
+  "Internet": "77",
+  "project": "90",
+  "Total": "385",
+  "Percentage": "77",
+  "Grade": "A"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d850666e"
+  },
+  "roll_no": "202038",
+  "name": "SAMREEN KHAN",
+  "father_name": "SHABBN KHAN",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "NAJIR FATMA",
+  "dob": "03\\06\\1997",
+  "address": "Moh. - Sarayrafi",
+  "mob_no": "9568530173",
+  "computer_fundamental": "84",
+  "operating_system": "87",
+  "microsoft_office": "81",
+  "Internet": "86",
+  "project": "92",
+  "Total": "430",
+  "Percentage": "86",
+  "Grade": "S"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d850666f"
+  },
+  "roll_no": "202039",
+  "name": "SANA PARVEEN",
+  "father_name": "MUSHARRAF JAVED",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "ANJUM PARVEEN",
+  "dob": "31\\12\\2000",
+  "address": "Moh.- Mufti saray",
+  "mob_no": "8923581167",
+  "computer_fundamental": "82",
+  "operating_system": "88",
+  "microsoft_office": "92",
+  "Internet": "85",
+  "project": "88",
+  "Total": "435",
+  "Percentage": "87",
+  "Grade": "S"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506670"
+  },
+  "roll_no": "202040",
+  "name": "SAPNA SHARMA",
+  "father_name": "SUNIL KUMAR SHARMA",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "ANJANA SHARMA",
+  "dob": "21\\03\\2003",
+  "address": "Moh.- Chimman",
+  "mob_no": "9719744021",
+  "computer_fundamental": "64",
+  "operating_system": "63",
+  "microsoft_office": "67",
+  "Internet": "54",
+  "project": "77",
+  "Total": "325",
+  "Percentage": "65",
+  "Grade": "B"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506671"
+  },
+  "roll_no": "202041",
+  "name": "SHIVANI",
+  "father_name": "CHANDRASHEKHAR",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": " GEETA DEVI",
+  "dob": "18\\12\\1995",
+  "address": "Vill- Ismailpur",
+  "mob_no": "6395987660",
+  "computer_fundamental": "59",
+  "operating_system": "64",
+  "microsoft_office": "66",
+  "Internet": "71",
+  "project": "80",
+  "Total": "340",
+  "Percentage": "68",
+  "Grade": "B"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506672"
+  },
+  "roll_no": "202042",
+  "name": "SHIVANI",
+  "father_name": "OMPAL SINGH",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "MUNNI DEVI",
+  "dob": "16\\03\\2001",
+  "address": "Moh.- Gokul Nagar",
+  "mob_no": "8191819408",
+  "computer_fundamental": "75",
+  "operating_system": "77",
+  "microsoft_office": "86",
+  "Internet": "67",
+  "project": "85",
+  "Total": "390",
+  "Percentage": "78",
+  "Grade": "A"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506673"
+  },
+  "roll_no": "202043",
+  "name": "SHIVANI RANI",
+  "father_name": "BALESH SAINI",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "REKHA DEVI",
+  "dob": "24\\04\\2001",
+  "address": "Moh.- Chimman",
+  "mob_no": "8979172236",
+  "computer_fundamental": "57",
+  "operating_system": "61",
+  "microsoft_office": "74",
+  "Internet": "68",
+  "project": "70",
+  "Total": "330",
+  "Percentage": "66",
+  "Grade": "B"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506674"
+  },
+  "roll_no": "202044",
+  "name": "SOFIYA NAAZ",
+  "father_name": "MOHD HASAN",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "SALMA KHATOON",
+  "dob": "01\\01\\2000",
+  "address": "Moh.- Chahsang",
+  "mob_no": "9719720796",
+  "computer_fundamental": "72",
+  "operating_system": "56",
+  "microsoft_office": "70",
+  "Internet": "67",
+  "project": "85",
+  "Total": "350",
+  "Percentage": "70",
+  "Grade": "B"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506675"
+  },
+  "roll_no": "202045",
+  "name": "SUMAYYA ZEHRA",
+  "father_name": "RASHEED AHMAD",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "SHAHEEN PARVEEN",
+  "dob": "28\\10\\2002",
+  "address": "Moh.- Sarayrafi",
+  "mob_no": "7037242291",
+  "computer_fundamental": "55",
+  "operating_system": "62",
+  "microsoft_office": "52",
+  "Internet": "51",
+  "project": "70",
+  "Total": "290",
+  "Percentage": "58",
+  "Grade": "C"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506676"
+  },
+  "roll_no": "202046",
+  "name": "SUNEETA ",
+  "father_name": "RADHESHYAM",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "SAVITRI",
+  "dob": "25\\10\\2002",
+  "address": "Moh. - Sarayrafi",
+  "mob_no": "9152732323",
+  "computer_fundamental": "64",
+  "operating_system": "63",
+  "microsoft_office": "73",
+  "Internet": "65",
+  "project": "85",
+  "Total": "350",
+  "Percentage": "70",
+  "Grade": "B"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506677"
+  },
+  "roll_no": "202047",
+  "name": "TANIYA SAILANI",
+  "father_name": "SATYA PRAKASH",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "SHASHI BALA",
+  "dob": "04\\12\\1999",
+  "address": "Moh.- Shahchandan",
+  "mob_no": "8650921343",
+  "computer_fundamental": "87",
+  "operating_system": "81",
+  "microsoft_office": "94",
+  "Internet": "93",
+  "project": "90",
+  "Total": "445",
+  "Percentage": "89",
+  "Grade": "S"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506678"
+  },
+  "roll_no": "202048",
+  "name": "TESLEEM AHMED  ",
+  "father_name": "ZAMEEL AHMAD",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "RAFFIKAN KHATOON",
+  "dob": "24\\02\\1993",
+  "address": "Moh. - Sarayrafi",
+  "mob_no": "7906657792",
+  "computer_fundamental": "76",
+  "operating_system": "71",
+  "microsoft_office": "88",
+  "Internet": "90",
+  "project": "85",
+  "Total": "410",
+  "Percentage": "82",
+  "Grade": "A"
+},{
+  "_id": {
+    "$oid": "6016b1f26d89d5b1d8506679"
+  },
+  "roll_no": "202049",
+  "name": "UMAIR",
+  "father_name": "MOHD RIZWAN",
+  "course_name": "Advance Diploma in IT & System Management",
+  "mother_name": "KHURSHIDA KHATOON",
+  "dob": "01\\01\\2006",
+  "address": "Moh. - Sarayrafi",
+  "mob_no": "7136028264",
+  "computer_fundamental": "58",
+  "operating_system": "63",
+  "microsoft_office": "67",
+  "Internet": "67",
+  "project": "70",
+  "Total": "325",
+  "Percentage": "65",
+  "Grade": "B"
+}]
