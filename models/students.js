@@ -1,4 +1,7 @@
 const {mongoose} = require('../initDB');
+const {courseSchema} = require('./courses');
+const {scoreSchema} = require('./Score');
+
 
 const studentsSchema = new mongoose.Schema({
     roll_no: String,
@@ -9,14 +12,9 @@ const studentsSchema = new mongoose.Schema({
     address: String,
     course_name: String,
     mob_no: String,
-    computer_fundamental: String,
-    operating_system: String,
-    microsoft_office: String,
-    internet: String,
-    project: String,
-    total: String,
-    percentage: String,
-    grade: String
+    course: courseSchema,
+    score: scoreSchema,
+    image: String,
 });
 
 const Students = mongoose.model('students', studentsSchema);

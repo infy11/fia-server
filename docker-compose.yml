@@ -6,21 +6,28 @@ services:
   mongodb:
     restart: always
     image: mongo:4
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: rgcsmdbpassword
     ports:
       - 27017:27017
     networks:
-      - br0-docker-feature
+      - future-it-network
     volumes:
       - mongodb_rgcsm:/var/lib/mongodb
     logging:
       driver: 'json-file'
       options:
         max-size: '10k'
-
+  backend:
+    restart: always
+    image: futureit_academy/node-web-app:latest
+    environment:
+      DB_URL: mongodb://mongodb:27017/admin
+    ports:
+      - 8080:8080
+    networks:
+      - future-it-network
+    depends_on:
+      - mongodb
 networks:
-  br0-docker-feature:
-    external: true
+  future-it-network:
+    driver: bridge
 
