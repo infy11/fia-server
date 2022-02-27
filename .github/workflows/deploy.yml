@@ -15,6 +15,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: 22
           envs: CR_PAT
+          debug: true
           script: |
             echo $CR_PAT |  docker login ghcr.io -u infy11 --password-stdin
             docker-compose pull
