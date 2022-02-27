@@ -1,0 +1,28 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:y
+    branches: [ master ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Login to ghcr
+      run: |
+        echo $CR_PAT |  docker login ghcr.io -u infy11 --password-stdin
+      env:
+        CR_PAT: ${{ secrets.CR_PAT }}
+
+    - name: building docker image
+      run:  docker build . -t ghcr.io/infy11/futureit_academy:latest
+
+    - name: pushing docker image to GHCR
+      run: docker push ghcr.io/infy11/futureit_academy:latest
+
