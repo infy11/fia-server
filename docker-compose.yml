@@ -18,16 +18,35 @@ services:
         max-size: '10k'
   backend:
     restart: always
-    image: futureit_academy/node-web-app:latest
+    image: ghcr.io/infy11/futureit_academy:latest
     environment:
       DB_URL: mongodb://mongodb:27017/admin
+    volumes:
+      - /home/ubuntu/photos:/usr/src/app/public
     ports:
       - 8080:8080
     networks:
       - future-it-network
     depends_on:
       - mongodb
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /data/caddy/Caddyfile:/etc/caddy
+      - /data/caddy/data:/data # Optional
+      - /data/caddy/config:/config # Optional
+    networks:
+      - web
+      - future-it-network
 networks:
+  web:
+    external: true
   future-it-network:
+    external: false
     driver: bridge
+
 
