@@ -7,12 +7,16 @@ jobs:
     steps:
       - name: Deploying services
         uses: appleboy/ssh-action@master
+        env:
+          CR_PAT: ${{ secrets.CR_PAT }}
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           port: 22
+          envs: CR_PAT
           script: |
+            echo $CR_PAT |  docker login ghcr.io -u infy11 --password-stdin
             docker-compose pull
             docker-compose down
             docker-compose up -d
