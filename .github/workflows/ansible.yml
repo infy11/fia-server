@@ -1,0 +1,16 @@
+name: Ansible deployment
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploying Ansible
+        uses: dawidd6/action-ansible-playbook@v2.5.0
+        with:
+          playbook: playbook.yml
+          key: ${{ secrets.ANSIBLE_SSH_KEY }}
+          options: |
+            --inventory inventory
+            --verbose
+

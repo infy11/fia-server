@@ -1,0 +1,53 @@
+---
+- name: backend future IT
+  hosts: standby
+  vars:
+    domain: standby.futureitacademy.in
+  become: yes
+  tasks:
+     - name: update repository
+       apt:
+        update_cache: yes
+     - name: install docker
+       apt:
+        name: docker.io
+        state: present
+     - name: Install docker-compose
+       get_url: 
+        url : https://github.com/docker/compose/releases/download/1.29.2/docker-compose-Linux-x86_64
+        dest: /usr/local/bin/docker-compose
+        mode: 'u+x,g+x'
+     - name: Creating docker network
+       command: docker network create web
+       ignore_errors: yes
+     - name: copy docker compose 
+       copy:
+        src: docker-compose.yml
+        dest: "/home/ubuntu/"
+     - name: create data directory for caddy
+       file:
+        path: /data/caddy/Caddyfile
+        state: directory
+     - name: create data directory for caddy
+       file:
+        path: /data/caddy/data
+        state: directory
+     - name: create data directory for caddy
+       file:
+        path: /data/caddy/config
+        state: directory
+     - name: create photos directory for backend
+       file:
+        path: /home/ubuntu/photos
+        state: directory
+     - name: create mongo db data directory
+       file:
+        path: /home/ubuntu/mongodb
+        state: directory
+     - name: creating caddy file with templates
+       template:
+        src: Caddyfile
+        dest: /data/caddy/Caddyfile/Caddyfile
+
+     
+ 

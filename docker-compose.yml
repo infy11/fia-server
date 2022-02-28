@@ -11,7 +11,7 @@ services:
     networks:
       - future-it-network
     volumes:
-      - mongodb_rgcsm:/var/lib/mongodb
+      - /home/ubuntu/mongodb:/var/lib/mongodb
     logging:
       driver: 'json-file'
       options:
@@ -46,7 +46,7 @@ networks:
   web:
     external: true
   future-it-network:
-    external: false
+    external: false    
     driver: bridge
 
 

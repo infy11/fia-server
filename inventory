@@ -1,0 +1,2 @@
+[standby]
+standby.futureitacademy.in      ansible_user=ubuntu
