@@ -1,0 +1,30 @@
+name: Backup mongo db and images
+on:
+    schedule:
+      - cron: '0 3 */15 * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploying services
+        uses: appleboy/ssh-action@master
+        env:
+          CR_PAT: ${{ secrets.CR_PAT }}
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_KEY }}
+          port: 22
+          envs: CR_PAT
+          debug: true
+          script: |
+            echo $CR_PAT |  docker login ghcr.io -u infy11 --password-stdin
+            docker exec -d ubuntu_mongodb_1  mongodump
+            docker cp ubuntu_mongodb_1:/dump .
+            zip -r db_backup.zip dump
+            zip -r images-backup.zip photos/
+            cd /home/ubuntu/bin
+            ./oci os object put -bn future-it-academy-bucket --file /home/ubuntu/db_backup.zip --force
+            ./oci os object put -bn future-it-academy-bucket --file /home/ubuntu/images-backup.zip --force
+ 
