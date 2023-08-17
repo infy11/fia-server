@@ -18,9 +18,7 @@ jobs:
           debug: true
           script: |
             echo $CR_PAT |  docker login ghcr.io -u infy11 --password-stdin
-            docker exec -it ubuntu_mongodb_1 sh
-            mkdir backup
-            cd backup
-            mongodump
-            exit
+            docker exec -d ubuntu_mongodb_1 mkdir backup
+            docker exec -d ubuntu_mongodb_1 cd backup
+            docker exec -d ubuntu_mongodb_1 cd mongodump
             docker cp ubuntu_mongodb_1:/backup .
