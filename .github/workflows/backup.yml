@@ -22,6 +22,7 @@ jobs:
             docker cp ubuntu_mongodb_1:/dump .
             zip -r db_backup.zip dump
             zip -r images-backup.zip photos/
-            ./home/ubuntu/bin/oci os object put -bn future-it-academy-bucket --file db_backup.zip --force
-            ./home/ubuntu/bin/oci os object put -bn future-it-academy-bucket --file images-backup.zip --force
+            cd /home/ubuntu/bin
+            ./oci os object put -bn future-it-academy-bucket --file db_backup.zip --force
+            ./oci os object put -bn future-it-academy-bucket --file images-backup.zip --force
  
