@@ -20,3 +20,13 @@ jobs:
             echo $CR_PAT |  docker login ghcr.io -u infy11 --password-stdin
             docker exec -d ubuntu_mongodb_1  mongodump
             docker cp ubuntu_mongodb_1:/dump .
+            - name: copy file via ssh password
+        - name: bringing backup to github runner    
+          uses: appleboy/scp-action@v0.1.4
+          with:
+            host: ${{ secrets.HOST }}
+            username: ${{ secrets.USERNAME }}
+            password: ${{ secrets.PASSWORD }}
+            port: ${{ secrets.PORT }}
+            source: ${{ secrets.HOST }}/dump
+            target: /
