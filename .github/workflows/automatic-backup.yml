@@ -1,4 +1,4 @@
-name: Backup mongo db and images
+name: Backup mongo db and images automatically every 15 days
 on:
     schedule:
       - cron: '0 3 */15 * *'
